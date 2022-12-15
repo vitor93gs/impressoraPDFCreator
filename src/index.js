@@ -24,7 +24,7 @@ app.post("/pdfteste", async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`App running on port ${port}`);
+  console.log(`Aplicativo rodando na porta ${port}`);
 });
 
 process.on("uncaughtException", (err) => {
