@@ -47,7 +47,7 @@ Configurando o PDFCREATOR:
 Após baixar o PDFCREATOR abra o programa, abra a aba "Perfis" no canto superior esquerdo.
 Na aba Perfis abra a caixa "Salvar", no popup da opção Salvar, selecione a opção só salvar arquivos temporariamente, clique em "OK" e volte para a aba Perfis.
 Novamente na aba Perfis, delete todas as ações, depois de deletar todas as ações, crie uma nova ação no botão "Adicionar ação +".
-No popup de adicionar ação escolha HTTP (fica na coluna "Enviar"), depois crie uma nova conta HTTP, clicando no botão "+" ao lado direito da área de selecionar conta HTTP. Na criação de conta HTTP coloque na URL o seguinte: http://127.0.0.1:*PORT*/pdf (caso esteja em produção) ou http://127.0.0.1:*PORT*/pdfteste (caso você vá testar a requisição do executável, sem fazer consulta a base de dados), onde *PORT* é a chave PORT do .env. Clique em salvar, depois OK.
+No popup de adicionar ação escolha HTTP (fica na coluna "Enviar"), depois crie uma nova conta HTTP, clicando no botão "+" ao lado direito da área de selecionar conta HTTP. Na criação de conta HTTP coloque na URL o seguinte: http://127.0.0.1:PORT/pdf (caso esteja em produção) ou http://127.0.0.1:PORT/pdfteste (caso você vá testar a requisição do executável, sem fazer consulta a base de dados), onde *PORT* é a chave PORT do .env. Clique em salvar, depois OK.
 Salve as mudanças feitas na aba Perfis e a configuração do PDFCREATOR está feita.
 
 
